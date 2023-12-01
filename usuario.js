@@ -18,7 +18,9 @@ alert (mensaje);
 nombreYapellido = prompt ('Ingrese Nombre y Apellido');
 alert (`Hola ${nombreYapellido}! bienvenido a CARRERAS DE TRAIL`);
 
+
 correo = prompt ('Ingrese Correo');
+
 
             do {
         
@@ -58,3 +60,9 @@ correo = prompt ('Ingrese Correo');
                     }
             } 
             while (evento !== 5);
+
+
+
+
+
+
