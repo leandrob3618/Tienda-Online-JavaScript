@@ -3,14 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Clase 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <title>CARRERAS DE TRAIL</title>
 </head>
 <body>
+    <!-- <h1 id="mi-header" class="text-center run">CARRERAS DE TRAIL</h1>
+    <h1 id="mi-header2" class="text-center run">Formulario de Inscrpción</h1> -->
+
+    <section class="registro-formulario">
+
+        <h2>Registro General</h2>
+
+        <div class="contenedor-general">
+    
+            <div class="container">
+                <form class="form-group">
+    
+                    <label for="nombreCompetidor">Nombre:</label>
+                    <input type="text" class="form-control" id="nombreCompetidor" name="nombreCompetidor"
+                        placeholder="Ingresa tu nombre">
+    
+                    <p class="mb-4"></p>
+    
+                    <label for="apellidoCompetidor">Apellido:</label>
+                    <input type="text" class="form-control" id="apellidoCompetidor" name="apellidoCompetidor"
+                        placeholder="Ingresa tu apellido">
+    
+                    <p class="mb-4"></p>
+    
+                    <label for="edadCompetidor">Edad:</label>
+                    <input type="number" class="form-control" id="edadCompetidor" name="edadCompetidor"
+                        placeholder="Ingresa tu edad">
+    
+                    <p class="mb-4"></p>
+    
+                    <label for="dniCompetidor">Número de dni:</label>
+                    <input type="number" class="form-control" id="dniCompetidor" placeholder="Ingresa tu número de dni">
+    
+    
+                    <p class="mb-4"></p>
+                    <button type="button" class="btn btn-primary" onclick="cargarUsuario()">Aceptar</button>
+                    <button type="submit" class="btn btn-primary">Cancelar</button>
+    
+                </form>
+            </div>
+        </div>
+    </section>
+    <div id="infoRun">
+        <!-- <table class="table table-dark">
+            <thead class="thead-dark">
+                <tr id="trId">
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Edad</th>
+                    <th>DNI</th>
+                </tr>
+            </thead>
+            <tbody id="items" class="table-striped"></tbody>
+            <tfoot>
+                <tr>
+                    <th id="total"></th>
+                </tr>
+            </tfoot>
+        </table> -->
+    </div>
     <script>
-        //probando java script
+        // probando java script
     </script>
 
-    <script src="./inscripcionUsuario.js"></script>
+    <script src="./formulario.js"></script>
+    
 </body>
 </html>

@@ -25,9 +25,12 @@ class inscripcionUsuario {
     dni;
     edad;
     distancia;
+    talleRemera;
+    precio;
+
     
 
-    constructor(nombre, apellido, correo, genero, dni, edad, distancia) {
+    constructor(nombre, apellido, correo, genero, dni, edad, distancia, talleRemera, precio) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.correo = correo;
@@ -35,6 +38,8 @@ class inscripcionUsuario {
         this.dni = dni;
         this.edad = edad;
         this.ditancia = distancia;
+        this.talleRemera = talleRemera;
+        this.precio = precio;
 }
 }
 
@@ -60,8 +65,8 @@ if (dato !== 2) {
 
         const infoUsuarios = [];
 
-        function agregarUsuario(nombre, apellido, correo, genero, dni, edad, distancia) {
-            const nuevoUsuario = new inscripcionUsuario(nombre, apellido, correo, genero, dni, edad, distancia);
+        function agregarUsuario(nombre, apellido, correo, genero, dni, edad, distancia, talleRemera, precio) {
+            const nuevoUsuario = new inscripcionUsuario(nombre, apellido, correo, genero, dni, edad, distancia, talleRemera, precio);
             infoUsuarios.push(nuevoUsuario);
         }
 
@@ -73,12 +78,14 @@ if (dato !== 2) {
             inscripcionUsuario.genero = prompt('Ingrese Genero'),
             inscripcionUsuario.dni = prompt('Ingrese DNI'),
             inscripcionUsuario.edad = prompt('Ingrese Edad'),
-            inscripcionUsuario.distancia = prompt('Ingrese distancia')
+            inscripcionUsuario.distancia = prompt('Ingrese distancia'),
+            inscripcionUsuario.talleRemera = prompt('Ingrese talle'),
+            inscripcionUsuario.precio = prompt('')
         );
          }
 
          infoUsuarios.forEach(element => {
-            console.log(`Nombre:${element.nombre}, Apellido${element.apellido}, Correo${element.correo}, Genero:${element.genero}, DNI:${element.dni}, Edad:${element.edad}, Distancia:${element.distancia}`);
+            console.log(`Nombre:${element.nombre}, Apellido${element.apellido}, Correo${element.correo}, Genero:${element.genero}, DNI:${element.dni}, Edad:${element.edad}, Distancia:${element.distancia}, Talle remera:${element.talleRemera}, Precio:${element.precio}`);
         });
     }
     
