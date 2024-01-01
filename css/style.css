@@ -1,5 +1,25 @@
 
 
 body {
-    background-image: url(../img/fondo.jpg);
+    background-color: rgb(50, 50, 154);
+    
+}
+
+div.ilustracionprincipal {
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    width: 40%;
+    height:40%;
+}
+
+section h2 {
+    text-align: center;
+    font-weight: 1000;
+}
+
+section label {
+    font-weight: 800;
 }

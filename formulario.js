@@ -4,6 +4,15 @@
 mensaje = 'BIENVENIDOS A CARRERAS DE TRAIL'
 alert (mensaje);
 
+evento = parseInt(prompt(`CARRERAS DE TRAIL` + '\n' +
+            'Selecione el tipo de disciplina que desea incribirse' + '\n' +
+            '1) Maraton' + '\n' +
+            '2) Trail Running' + '\n' +
+            '3) Ciclismo' + '\n' +
+            '4) Mountain Bike' + '\n' +
+            '5) Natacion' + '\n' +
+            '6) Para salir'));
+
 var formulario = [];
 
 function cargarUsuario() {
