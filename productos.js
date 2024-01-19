@@ -5,7 +5,7 @@ const productos = [
     productName: "Remera",
     price: 28500,
     quanty: 1,
-    img : "https:/interfuerzasar.vtexassets.com/arquivos/ids/212004-200-auto?v=638306681531400000&width=200&height=auto&aspect=true",
+    img : "https://http2.mlstatic.com/D_NQ_NP_2X_985357-MLA49119622864_022022-F.webp",
 },
 {
     id: 2,
